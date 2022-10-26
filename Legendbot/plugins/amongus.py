@@ -20,11 +20,11 @@ menu_category = "extra"
 
 
 async def amongus_gen(text: str, clr: int) -> str:
-    url = "https://github.com/ITS-LEGENDBOT/RESOURCES/raw/master/Resources/Amongus/"
+    url = "https://github.com/ITS-LEGENDX/RESOURCES/raw/master/Resources/Amongus/"
     font = ImageFont.truetype(
         BytesIO(
             get(
-                "https://github.com/ITS-LEGENDBOT/RESOURCES/raw/master/Resources/fonts/bold.ttf"
+                "https://github.com/ITS-LEGENDX/RESOURCES/raw/master/Resources/fonts/bold.ttf"
             ).content
         ),
         60,
@@ -53,10 +53,10 @@ async def amongus_gen(text: str, clr: int) -> str:
 
 async def get_imposter_img(text: str) -> str:
     background = get(
-        f"https://github.com/ITS-LEGENDBOT/RESOURCES/raw/master/Resources/imposter/impostor{randint(1,22)}.png"
+        f"https://github.com/ITS-LEGENDX/RESOURCES/raw/master/Resources/imposter/impostor{randint(1,22)}.png"
     ).content
     font = get(
-        "https://github.com/ITS-LEGENDBOT/RESOURCES/raw/master/Resources/fonts/roboto_regular.ttf"
+        "https://github.com/ITS-LEGENDX/RESOURCES/raw/master/Resources/fonts/roboto_regular.ttf"
     ).content
     font = BytesIO(font)
     font = ImageFont.truetype(font, 30)
