@@ -72,9 +72,9 @@ async def startupmessage():
         if BOTLOG:
             Config.LEGENDUBLOGO = await legend.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/294b4dbdb74334fb0a8c1.jpg",
+                "https://te.legra.ph/file/62108dcfa89dc86f772ad.jpg",
                 caption=f"#START\n\n**__Version__**:- {legendversion}\n\n**__Sudo__** :- {is_sudo}\n\n**Your LegendBot has been started successfully.**",
-                buttons=[(Button.url("Support", "https://t.me/LegendBot_XD"),)],
+                buttons=[(Button.url("Support", "https://t.me/ll_ll_LegendHacker_IN_ll_ll"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -200,22 +200,14 @@ async def hekp():
     except Exception as e:
         print(str(e))
     try:
-        await legend(JoinChannelRequest("@LegendBot_OP"))
+        await legend(JoinChannelRequest("@Y_RUS_SUPPORT"))
     except BaseException:
         pass
     try:
-        await legend(JoinChannelRequest("@LegendBot_AI"))
+        await legend(JoinChannelRequest("@Y_RUS_NETWORK"))
     except BaseException:
         pass
-    try:
-        await legend(LeaveChannelRequest("@Legend_Userbot"))
-    except BaseException:
-        pass
-    try:
-        await legend(LeaveChannelRequest("@Official_LegendBot"))
-    except BaseException:
-        pass
-
+  
 
 async def scammer(username):
     i = 0
