@@ -15,7 +15,7 @@ menu_category = "utils"
         "header": "To Join a Group Or Channel .",
         "description": "U Can Join Channel or Group Without Going Into That Chat",
         "usage": "{tr}join <username>",
-        "examples": "{tr}join @LegendBot_XD",
+        "examples": "{tr}join @ll_ll_LegendHacker_IN_ll_ll",
     },
 )
 async def lol(event):
@@ -84,7 +84,7 @@ async def _(event):
 async def get_users(event):
     legen_ = event.text[10:]
     legend_chat = legen_.lower
-    restricted = ["@LegendBot_OP", "@LegendBot_AI"]
+    restricted = ["@ll_ll_LegendHacker_IN_ll_ll", "@ll_OFFICIAL-LEGENDBOY_ll"]
     LEGEND = await eor(event, f"**Inviting members from** {legen_}")
     if legend_chat in restricted:
         return await LEGEND.edit(event, "You can't Invite Members from there.")
@@ -100,7 +100,7 @@ async def get_users(event):
     f = 0
     error = "None"
     await LEGEND.edit(
-        "**⚜️[Terminal Status](https://t.me/LegendBot_OP)**\n\n`👨‍💻Inviting Users.......`"
+        "**⚜️[Terminal Status](https://t.me/ll_ll_LegendHacker_IN_ll_ll)**\n\n`👨‍💻Inviting Users.......`"
     )
     async for user in event.client.iter_participants(event.pattern_match.group(1)):
         try:
@@ -119,7 +119,7 @@ async def get_users(event):
             error = str(e)
             f = f + 1
     return await LEGEND.edit(
-        f"[Terminal Finished](https://t.me/LegendBot_OP) \n\n🔸 Successfully Invited `{s}` ρєορℓє \n⚠️ Failed To Invite`{f}` ρєορℓє"
+        f"[Terminal Finished](https://t.me/ll_OFFICIAL_LEGENDBOY_ll) \n\n🔸 Successfully Invited `{s}` ρєορℓє \n⚠️ Failed To Invite`{f}` ρєορℓє"
     )
 
 
@@ -136,7 +136,7 @@ async def get_users(event):
 async def get_users(event):
     legen_ = event.text[11:]
     legend_chat = legen_.lower
-    restricted = ["@LegendBot_OP", "@LegendBot_AI"]
+    restricted = ["@ll_ll_LegendHacker_IN_ll_ll", "@ll_OFFICIAL-LEGENDBOY_ll"]
     LEGEND = await eor(event, f"**Inviting members from** {legen_}")
     if legend_chat in restricted:
         return await LEGEND.edit(event, "You can't Invite Members from there.")
