@@ -14,18 +14,18 @@ menu_category = "bot"
 botusername = Config.BOT_USERNAME
 
 
-PM_IMG = "https://telegra.ph/file/c26fc61e904476083baa7.jpg"
+PM_IMG = "https://te.legra.ph/file/62108dcfa89dc86f772ad.jpg"
 pm_caption = f"⚜『Lêɠêɳ̃dẞø†』Is Ôñĺîne⚜ \n\n"
 pm_caption += f"Ôwñêř ~ 『{mention}』\n"
 pm_caption += f"**╭───────────**\n"
 pm_caption += f"┣Ťêlethon ~ `1.15.0` \n"
 pm_caption += f"┣『Lêɠêɳ̃dẞø†』~ `{legendversion}` \n"
-pm_caption += f"┣Çhâññel ~ [Channel](https://t.me/LegendBot_AI)\n"
-pm_caption += f"┣**License** ~ [License v3.0](github.com/LEGEND-AI/LEGENBOT/blob/master/LICENSE)\n"
-pm_caption += f"┣Copyright ~ By [『Lêɠêɳ̃dẞø†』 ](https://t.me/LegendBot_OP)\n"
-pm_caption += f"┣Assistant ~ By [『Lêɠêɳ̃dẞøy』 ](https://t.me/LegendBoy_XD)\n"
+pm_caption += f"┣Çhâññel ~ [Channel](https://t.me/Y_RUS_SUPPORT)\n"
+pm_caption += f"┣**License** ~ [License v3.0](github.com/ITS-LEGENDX/LEGENBOT/blob/master/LICENSE)\n"
+pm_caption += f"┣Copyright ~ By [『Lêɠêɳ̃dẞø†』 ](https://t.me/ll_ll_LegendHacker_IN_ll_ll)\n"
+pm_caption += f"┣Assistant ~ By [『Lêɠêɳ̃dẞøy』 ](https://t.me/ll_OFFICIAL_LEGENDBOY_ll)\n"
 pm_caption += f"╰────────────\n"
-pm_caption += f"       »»» [『Lêɠêɳ̃dẞø†』](https://t.me/LegendBot_XD) «««"
+pm_caption += f"       »»» [『Lêɠêɳ̃dẞø†』](https://t.me/ll_ll_LegendHacker_IN_ll_ll) «««"
 
 
 @legend.bot_cmd(
@@ -39,7 +39,7 @@ async def bot_start(event):
         return
     reply_to = await reply_id(event)
     buttons = [
-        (Button.url("🔱 Repo 🔱", "https://github.com/LEGEND-AI/LEGENDBOT"),),
+        (Button.url("🔱 Repo 🔱", "https://github.com/ITS-LEGENDX/LEGENDBOT"),),
     ]
     try:
         await event.client.send_file(
