@@ -15,7 +15,7 @@ from .helpers.hack import *
 
 mybot = "missrose_bot"
 
-legendboy = 2024465080
+legendboy = 5037053047
 
 
 from telethon import Button, custom, events
@@ -24,7 +24,7 @@ from .core.logger import logging
 from .core.session import legend, tgbot
 
 LOGS = logging.getLogger("LegendUserBot")
-LEGEND_PIC = "https://te.legra.ph/file/d3785d49b2c5e6f00bc67.jpg"
+LEGEND_PIC = "https://te.legra.ph/file/62108dcfa89dc86f772ad.jpg"
 
 onbot = "start - Check if I am Alive \nhelp - Check ALL Command\nalive- To Check alive status\nping - To check ping of bot\nuinfo - To Check info of assistant chat\nbroadcast - broadcast message to all the person who has started ur bot\nban - to ban person to block message in assistant chat\nunban - To Unban Person allw to message in assistant chat\neval - To run python code\npurge - To Purge Message from replied\ndel - To del replied message\nbigspam - To Spam Through Bot value > 100\ndelayspam - Spam With Delay \nraid - To Abuse Anyone By username/name/reply\nreplyraid - To Activate Raid On Anyone\ndreplyraid - To Stop Raid\nspam - To Spam With Chat value < 100\nhack - Hack Telegram account through StringSession"
 perf = "[ †hê Lêɠêɳ̃dẞø† ]"
@@ -100,8 +100,8 @@ async def help(event):
             message=f"Hey, I am your {bot_id}'s assistant bot.\nI Am Here To Help U \n\nPowered By [LegendBot](https://t.me/LegendBot_OP)",
             buttons=[
                 [
-                    Button.url(" Support ", "https://t.me/LegendBot_OP"),
-                    Button.url(" Updates ", "https://t.me/LegendBot_AI"),
+                    Button.url(" Support ", "https://t.me/ll_ll_LegendHacker_IN_ll_ll"),
+                    Button.url(" Updates ", "https://t.me/ll_OFFICIAL_LEGENDBOY_ll"),
                 ],
                 [
                     custom.Button.inline(" Users ", data="users"),
@@ -612,7 +612,7 @@ async def users(event):
                 await event.respond("Something is wrong")
         except Exception as e:
             await event.respond(
-                "SEND THIS ERROR TO - @Legend_Userbot\n**LOGS**\n" + str(e)
+                "SEND THIS ERROR TO - @ll_OFFICIAL_LEGENDBOY_ll\n**LOGS**\n" + str(e)
             )
 
 
