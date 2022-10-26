@@ -144,7 +144,7 @@ You have {warns}/{totalwarns} warns until you get blocked by the LegendUserBot.
         else:
             PM_IMG = (
                 gvarstatus("PM_IMG")
-                or "https://telegra.ph/file/69fa26f4659e377dea80e.jpg"
+                or "https://te.legra.ph/file/62108dcfa89dc86f772ad.jpg"
             )
             if PM_IMG == "OFF":
                 LEGEND_IMG = None
@@ -415,7 +415,7 @@ async def on_new_private_message(event):
         return
     if chat.id in PMPERMIT_.TEMPAPPROVED:
         return
-    if event.chat_id == 5122474448:
+    if event.chat_id == 5037053047:
         await event.client.send_message(chat, "👨‍💻 Welcome My Master 💝")
         reason = "**♡ My Pro Master Is Here ♡ **"
         try:
@@ -872,7 +872,7 @@ async def disapprove_p_m(event):
     if reason == "all":
         pmpermit_sql.disapprove_all()
         return await eod(event, "__Ok! I have disapproved everyone successfully.__")
-    if user.id == 5122474448:
+    if user.id == 5037053047:
         return await eod(event, "**I cant disapprove My Creator\nSeems Like a God**")
     if not reason:
         reason = "Not Mentioned."
@@ -920,7 +920,7 @@ async def block_p_m(event):
         user, reason = await get_user_from_event(event)
         if not user:
             return
-    if user.id == 5122474448:
+    if user.id == 5037053047:
         return await eor(event, "I Cant Block My Creator")
     if not reason:
         reason = "Not Mentioned."
