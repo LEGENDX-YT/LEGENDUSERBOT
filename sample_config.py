@@ -13,8 +13,8 @@ class Config(object):
     ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
     AUTONAME = os.environ.get("AUTONAME", None)
     # Get the values for following 2 from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 6))
-    API_HASH = os.environ.get("API_HASH") or None
+    APP_ID = int(os.environ.get("APP_ID", "4961064"))
+    API_HASH = os.environ.get("API_HASH", "ab8df7ec72b3eee0f7ab871f3363bc22") or None
     # Datbase url heroku sets it automatically else get this from elephantsql
     DB_URI = os.environ.get("DATABASE_URL", None)
     LEGEND_STRING = os.environ.get("LEGEND_STRING", None)
@@ -25,7 +25,7 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     # set this with required legend repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/ITS-LEGENDBOT/LEGENDBOT"
+        "UPSTREAM_REPO", "https://github.com/ITS-LEGENDX/LEGENDUSERBOT"
     )
     EXTRA_REPO = os.environ.get("EXTRA_REPO", None)
     if EXTRA_REPO and (EXTRA_REPO.lower() != "no") and not url(EXTRA_REPO):
