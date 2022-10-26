@@ -12,7 +12,7 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "α • 2.1"
 __license__ = "GNU Affero General Public License v3.0"
-__author__ = "LegendBot <https://github.com/ITS-LEGENDBOT/LEGENDBOT>"
+__author__ = "LegendBot <https://github.com/ITS-LEGENDX/LEGENDUSERBOT>"
 __copyright__ = f"LegendBot Copyright (C) 2020 - 2021  { __author__}"
 
 legend.version = __version__
@@ -35,9 +35,9 @@ signal.signal(signal.SIGTERM, close_connection)
 
 
 if Config.UPSTREAM_REPO == "pro":
-    UPSTREAM_REPO_URL = "https://github.com/ITS-LEGENDBOT/LEGENDBOT"
+    UPSTREAM_REPO_URL = "https://github.com/ITS-LEGENDX/LEGENDBOT"
 elif Config.UPSTREAM_REPO == "multi":
-    UPSTREAM_REPO_URL = "https://github.com/ITS-LEGENDBOT/LEGENDUSERBOT"
+    UPSTREAM_REPO_URL = "https://github.com/ITS-LEGENDX/LEGENDUSERBOT"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
