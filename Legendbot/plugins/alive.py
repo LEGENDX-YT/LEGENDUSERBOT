@@ -126,9 +126,9 @@ pm_caption = f"**LegendBot Is Up**\n"
 pm_caption += f"**╭────────────**\n"
 pm_caption += f"┣»»»『{mention}』«««\n"
 pm_caption += f"┣Lêɠêɳ̃dẞø† ~ {legendversion}\n"
-pm_caption += f"┣Lêɠêɳ̃d  ~ [Owner](https://t.me/Legend_K_Boy)\n"
+pm_caption += f"┣Lêɠêɳ̃d  ~ [Owner](https://t.me/ll_ll_LegendHacker_IN_ll_ll)\n"
 pm_caption += f"┣Support ~ [G𝖗ουρ](https://t.me/LegendBot_OP)\n"
-pm_caption += f"┣Řepô    ~ [Rєρο](https://github.com/LEGEND-AI/LEGENDBOT)\n"
+pm_caption += f"┣Řepô    ~ [Rєρο](https://github.com/ITS-LEGENDX/LEGENDBOT)\n"
 pm_caption += f"**╰────────────**\n"
 
 
