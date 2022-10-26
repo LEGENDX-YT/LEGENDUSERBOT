@@ -9,17 +9,17 @@ from ..helpers.utils import reply_id
 
 cmdprefix = Config.HANDLER
 
-menu_category = "ᴛᴏᴏʟꜱ"
+menu_category = "tools"
 
 hemojis = {
-    "ᴀᴅᴍɪɴꜱ": "🥀",
-    "ᴜꜱᴇʀʙᴏᴛ": "🥀",
-    "ꜰᴜɴ": "🥀",
-    "ᴍɪꜱᴄ": "🥀",
-    "ᴛᴏᴏʟꜱ": "🥀",
-    "ᴜᴛɪʟꜱ": "🥀",
-    "ᴇxᴛʀᴀ": "🥀",
-    "ᴜꜱᴇʟᴇꜱꜱ": "🥀",
+    "admin": "🥀",
+    "bot": "🥀",
+    "fun": "🥀",
+    "misc": "🥀",
+    "tools": "🥀",
+    "utils": "🥀",
+    "extra": "🥀",
+    "useless": "🥀",
 }
 
 
@@ -98,7 +98,7 @@ async def plugininfo(input_str, event, type):
 async def grpinfo():
     outstr = "**🥀ᴘʟᴜɢɪɴꜱ ɪɴ ʟᴇɢᴇɴᴅxʙᴏᴛ ᴀʀᴇ🥀:**\n\n"
     outstr += f"**🥀 𝖀𝖘𝖆𝖌𝖊 : ** `{cmdprefix}help <plugin name>`\n\n"
-    category = ["ᴀᴅᴍɪɴꜱ", "ᴜꜱᴇʀʙᴏᴛ", "ꜰᴜɴ", "ᴍɪꜱᴄ", "ᴛᴏᴏʟꜱ", "ᴜᴛɪʟꜱ", "ᴇxᴛʀᴀ", "ᴜꜱᴇʟᴇꜱꜱ"]
+    category = ["admin", "bot", "fun", "misc", "tools", "utils", "extra", "useless"]
     for legend in category:
         plugins = GRP_INFO[legend]
         outstr += f"**{hemojis[legend]} {legend.title()} **({len(plugins)})\n"
@@ -110,7 +110,7 @@ async def grpinfo():
 
 async def cmdlist():
     outstr = "**🥀ᴛᴏᴛᴀʟ ʟɪꜱᴛ ᴏꜰ ᴄᴏᴍᴍᴀɴᴅꜱ ɪɴ ʏᴏᴜʀ ʟᴇɢᴇɴᴅxʙᴏᴛ ᴀʀᴇ🥀 :**\n\n"
-    category = ["ᴀᴅᴍɪɴꜱ", "ᴜꜱᴇʀʙᴏᴛ", "ꜰᴜɴ", "ᴍɪꜱᴄ", "ᴛᴏᴏʟꜱ", "ᴜᴛɪʟꜱ", "ᴇxᴛʀᴀ"]
+    category = ["admin", "bot", "fun", "misc", "tools", "utils", "extra"]
     for legend in category:
         plugins = GRP_INFO[legend]
         outstr += f"**{hemojis[legend]} {legend.title()} ** - {len(plugins)}\n\n"
