@@ -73,8 +73,9 @@ fake_useragent
 faker
 htmlwebshot
 
-git+https://github.com/ITS-LEGENDX/youtube-search-python
-git+https://github.com/ITS-LEGENDX/Telethon
-git+https://github.com/ITS-LEGENDX/py-googletrans
-git+https://github.com/ITS-LEGENDX/Wikipedia
+git+https://github.com/alexmercerind/youtube-search-python
+git+https://github.com/ITS-LEGENDBOT/Telethon
+git+https://github.com/ITS-LEGENDBOT/py-googletrans
+git+https://github.com/goldsmith/Wikipedia
+
 
