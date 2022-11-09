@@ -10,6 +10,7 @@ dataclasses
 DateTime
 emoji==1.7.0
 fonttools
+git+https://github.com/Hobby-Dev-0/TeleModified
 geopy
 gitpython
 glitch_this
@@ -74,8 +75,6 @@ faker
 htmlwebshot
 
 git+https://github.com/alexmercerind/youtube-search-python
-git+https://github.com/ITS-LEGENDBOT/Telethon
+git+https://github.com/LEGEND-AI/Telethon
 git+https://github.com/ITS-LEGENDBOT/py-googletrans
 git+https://github.com/goldsmith/Wikipedia
-
-
