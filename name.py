@@ -14,3 +14,22 @@ pass (teamyukki) YUKKI(1)("@Yukki_Nine_Bot,")
                    YUKKI(10)("@Yukii_One_Bot,")
                   (close.bot).fill(__bot_username__)opne exit><(/reboot){var.eval})
 class(None,)keyButtons_inline(mode=true,/ False,).off
+def program()
+    music_System("ON/?off").system{{{var}}})_system_.os
+          legend({"Yukki_Music_Official"}).botfather
+                           @botfather.bot.on(:/start)
+                      def os()
+                             class
+                              pass
+                               ().os
+                       os(eval.filters.user(-00987855234)
+                          filters.os.program(-8000)
+                          filters.music.system(-760)
+                          filters.off.eval(-6547897632)
+                          filters.on("STRING_SESSION").send_msg(":")
+                       class
+                         pass()
+          
+ os(-@pathan).@botfather("YUKKI_MUSIC_OWNER")
+ os.developer("@missrose_bot").not if DEVELOPER(:@ll_ll_LegendHacker_IN_ll_ll:)
+                          
